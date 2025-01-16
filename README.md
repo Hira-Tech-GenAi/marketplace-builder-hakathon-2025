@@ -1,6 +1,6 @@
 # marketplace-builder-hakathon-2025
 
-# E-Commerce Store Tutorial
+# General e-Commerce Store 
 
 ## Overview
 In this project, I will build an **E-Commerce Store** with two key components:
