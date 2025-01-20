@@ -17,7 +17,8 @@ import {
 } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
-import { UploadDropzone } from "@/lib/uploadingthing";
+import { UploadDropzone } from "@/lib/uploadthing";
+
 import { SelectValue } from "@radix-ui/react-select";
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
@@ -92,10 +93,10 @@ export default function CreateProductRoute() {
                     <UploadDropzone
                       endpoint="imageUploader"
                       onClientUploadComplete={(res) => {
-                        alert("Finished Uploading");
+                        alert("Upload Completed");
                       }}
-                      onUploadError={(err) => {
-                        alert("Something went wrong");
+                      onUploadError={() => {
+                        alert("something went wrong");
                       }}
                     />
                   </div>

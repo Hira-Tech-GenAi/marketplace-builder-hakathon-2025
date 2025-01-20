@@ -11,6 +11,10 @@ export const ourFileRouter = {
   // Define as many FileRoutes as you like, each with a unique routeSlug
   imageUploader: f({
     image: {
+      /**
+       * For full list of options and defaults, see the File Route API reference
+       * @see https://docs.uploadthing.com/file-routes#route-config
+       */
       maxFileSize: "4MB",
       maxFileCount: 10, //?upload limit
     },
@@ -21,7 +25,7 @@ export const ourFileRouter = {
       const user = await getUser();
 
       // If you throw, the user will not be able to upload
-      if (!user || user.email !== "hirakhalidgd@gmail.com")
+      if (!user || user.email !== "hirashoaibisc@gmail.com")
         throw new UploadThingError("Unauthorized");
 
       // Whatever is returned here is accessible in onUploadComplete as `metadata`
