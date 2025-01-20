@@ -1,43 +1,36 @@
-# marketplace-builder-hakathon-2025
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# General e-Commerce Store 
+## Getting Started
 
-## Overview
-In this project, I will build an **E-Commerce Store** with two key components:
+First, run the development server:
 
-1. **Admin Dashboard** 🛠️: Manage products, orders, and other administrative tasks.
-2. **Storefront** 🛒: A user-friendly interface for customers to browse and purchase products.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-This tutorial is created by **Hira Khalid**. 👩‍💻 I am launching my own shoe product 👟, and I have created a dedicated website for it as part of this project.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Technologies Used
-We will use the latest technologies to build this project, ensuring a modern, efficient, and scalable application:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- **Next.js** ⚛️: Framework for building server-rendered React applications.
-- **Kinde-Auth** 🔐: Authentication solution for secure user management.
-- **Neon** 🗄️: Serverless PostgreSQL database.
-- **Prisma** 📦: ORM for database management.
-- **Stripe** 💳: Payment gateway integration.
-- **TailwindCSS** 🎨: Utility-first CSS framework for styling.
-- **Shadcn/UI** 🖥️: Component library for React.
-- **Vercel** 🚀: Platform for deploying the application.
-- **Upstash** ⚡: Serverless database for Redis.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Tutorial Scope
-This is a **Full Stack Tutorial**, meaning we will:
+## Learn More
 
-- Design and implement the **Frontend** and **Backend**. 🖼️
-- Integrate **Authentication** and **Authorization**. 🔒
-- Handle **Database Management** and **API Development**. 🛢️
-- Configure **Payment Processing** with **Stripe**. 💰
-- Deploy the final product using **Vercel** and **Upstash**. 🌐
+To learn more about Next.js, take a look at the following resources:
 
-## Key Features
-- Modern, responsive UI built with **TailwindCSS** and **Shadcn/UI**. ✨
-- Secure authentication using **Kinde-Auth**. ✅
-- Scalable and efficient database management with **Neon** and **Prisma**. 📊
-- Payment gateway integration with **Stripe**. 💸
-- Real-time updates and caching with **Upstash**. 🕒
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Let’s Build It!
-Follow me to create a complete E-Commerce Store from start to finish! 🎉
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
