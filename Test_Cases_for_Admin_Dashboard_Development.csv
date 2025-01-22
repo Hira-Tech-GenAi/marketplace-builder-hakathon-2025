@@ -1,0 +1,6 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Initialize Admin Dashboard,Start the admin dashboard in the app-dashboard-page.tsx layout.,Admin dashboard loads successfully.,Admin dashboard initialized.,Passed,No issues found.
+TC002,Install and Configure shadcnui,"Install shadcnui, setup icons, buttons, dropdowns, and other UI components.",UI components render correctly.,UI components rendered as expected.,Passed,UI is fully functional.
+TC003,Set Up Modern Authentication with Kinde,"Sign up on Kinde, add modern authentication, and customize the design.",Authentication works with custom design.,Authentication successfully integrated.,Passed,Authentication flows are secure.
+TC004,Configure UploadThings for File Storage,"Sign up on UploadThings, configure for image and video storage.",Images and videos are uploaded successfully.,Image and video upload functional.,Passed,Uploads are working as expected.
+TC005,Install and Validate Prisma Setup,"Install Prisma and @prisma/client, and validate the database connection.",Prisma connects and queries data successfully.,Prisma setup verified successfully.,Passed,Prisma integration complete.
